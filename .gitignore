@@ -1,0 +1,16 @@
+dist
+node_modules
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea
+.vscode
+.gemini
+background.jpg
+ball.png
+dataset-loader.js.bak
+app.js.bak
+style.css.bak

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: voice-ai-friend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: NODE_VERSION
+        value: 18.0.0
