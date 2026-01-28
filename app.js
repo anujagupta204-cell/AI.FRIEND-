@@ -202,10 +202,10 @@ class VoiceAIFriend {
      */
     connectWebSocket() {
         const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        
+
         // IMPORTANT: Replace 'your-backend-name.onrender.com' with your actual Render URL after deployment
-        const productionWsUrl = 'wss://your-backend-name.onrender.com';
-        
+        const productionWsUrl = 'wss://ai-friend-js5q.onrender.com';
+
         let wsUrl;
         if (isLocalhost) {
             const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
